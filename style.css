@@ -1,0 +1,36 @@
+
+.nabar{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 2% 7%;
+}
+.nabar a{
+    text-decoration: none;
+    color: darksalmon;
+    font-size: 1.2rem;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+
+.dropdown-content a{
+    display: block;
+    
+    
+}
+.dropdown-content{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: gold;
+    display: none;
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: khaki;
+}
